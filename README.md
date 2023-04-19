@@ -1,3 +1,23 @@
+# V-SEEKER
+V-Seeker is a platform that connects organizations and volunteers to collaborate and work towards a common goal. Our platform makes it
+easy for organizations to find volunteers and for volunteers to find opportunities that align with their interests and skills.
+
+## Team-Name : Last3brainCells
+Members: HarshVardhanSingh , Pankaj Vishwakarma , Sarthak Tomar
+
+## Problem Statement
+Develop a web-based platform for matching volunteers with local community service projects based on their skills and interests.
+
+## Description:
+The platform should allow volunteers to create profiles outlining their skills, availability, and interests. Community service projects should be able to post opportunities and requirements. The platform should use algorithms to match volunteers with relevant projects.
+
+#Problem Inspiration
+Many people are interested in volunteering their time and skills to support their local communities but may struggle to find opportunities that align with their skills and interests. A platform that can effectively match volunteers with relevant projects can help address this issue.
+
+## [Presentation](https://drive.google.com/file/d/1p9PK0Y3-XwLZ83zfaml_4eHUN1Vw67hD/view?usp=sharing)
+
+# Screenshots:
+
 ![alt text](https://raw.githubusercontent.com/harshvardhansb/V-Seeker/main/ss1.png)
 ![alt text](https://raw.githubusercontent.com/harshvardhansb/V-Seeker/main/ss2.png)
 ![alt text](https://raw.githubusercontent.com/harshvardhansb/V-Seeker/main/ss4.png)
@@ -6,73 +26,7 @@
 ![alt text](https://raw.githubusercontent.com/harshvardhansb/V-Seeker/main/ss7.png)
 ![alt text](https://raw.githubusercontent.com/harshvardhansb/V-Seeker/main/ss8.png)
 
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## TechStacks Used :
+HTML , CSS , JavaScript , MaterialUI , MongoDB , Express, NodeJS
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
