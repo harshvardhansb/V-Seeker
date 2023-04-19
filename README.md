@@ -16,6 +16,11 @@ Many people are interested in volunteering their time and skills to support thei
 
 ## [Presentation](https://drive.google.com/file/d/1p9PK0Y3-XwLZ83zfaml_4eHUN1Vw67hD/view?usp=sharing)
 
+
+## TechStacks Used :
+HTML , CSS , JavaScript , MaterialUI , MongoDB , Express, NodeJS
+
+
 # Screenshots:
 
 ![alt text](https://raw.githubusercontent.com/harshvardhansb/V-Seeker/main/ss1.png)
@@ -25,8 +30,4 @@ Many people are interested in volunteering their time and skills to support thei
 ![alt text](https://raw.githubusercontent.com/harshvardhansb/V-Seeker/main/ss6.png)
 ![alt text](https://raw.githubusercontent.com/harshvardhansb/V-Seeker/main/ss7.png)
 ![alt text](https://raw.githubusercontent.com/harshvardhansb/V-Seeker/main/ss8.png)
-
-
-## TechStacks Used :
-HTML , CSS , JavaScript , MaterialUI , MongoDB , Express, NodeJS
 
