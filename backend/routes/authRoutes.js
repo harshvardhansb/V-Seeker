@@ -9,7 +9,7 @@ const Recruiter = require("../db/Recruiter");
 
 const router = express.Router();
 
-router.post("/signup", (req, res) => {
+router.post("https://v-seeker.onrender.com/signup", (req, res) => {
   const data = req.body;
   let user = new User({
     email: data.email,
@@ -65,7 +65,7 @@ router.post("/signup", (req, res) => {
     });
 });
 
-router.post("/login", (req, res, next) => {
+router.post("https://v-seeker.onrender.com/login", (req, res, next) => {
   passport.authenticate(
     "local",
     { session: false },
