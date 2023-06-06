@@ -1,5 +1,5 @@
 
-POST
+POST 
 localhost:4444/auth/signup
 
 recruiter
@@ -77,7 +77,7 @@ localhost:4444/auth/login
 
 
 {
-    "email": "john@gmail.com",
+    "email": "johncena@gmail.com",
     "password": "test",
     "type": "recruiter"
 }
