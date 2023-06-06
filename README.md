@@ -3,7 +3,7 @@ V-Seeker is a platform that connects organizations and volunteers to collaborate
 easy for organizations to find volunteers and for volunteers to find opportunities that align with their interests and skills.
 
 ## Team-Name : Last3brainCells
-Members: HarshVardhanSingh , Pankaj Vishwakarma , Sarthak Tomar
+#### Members:  [Harsh Vardhan Singh](https://github.com/harshvardhansb) , [Pankaj Vishwakarma](https://github.com/0410Pankajv) , [Sarthak Tomar](https://github.com/SoulKing365)
 
 ## Problem Statement
 Develop a web-based platform for matching volunteers with local community service projects based on their skills and interests.
@@ -14,7 +14,7 @@ The platform should allow volunteers to create profiles outlining their skills, 
 #Problem Inspiration
 Many people are interested in volunteering their time and skills to support their local communities but may struggle to find opportunities that align with their skills and interests. A platform that can effectively match volunteers with relevant projects can help address this issue.
 
-## [Presentation](https://drive.google.com/file/d/1p9PK0Y3-XwLZ83zfaml_4eHUN1Vw67hD/view?usp=sharing)
+## [Presentation 💻](https://drive.google.com/file/d/1p9PK0Y3-XwLZ83zfaml_4eHUN1Vw67hD/view?usp=sharing)
 
 
 ## TechStacks Used :
