@@ -12,7 +12,7 @@ const Rating = require("../db/Rating");
 const router = express.Router();
 
 // To add new job
-router.post("/jobs", jwtAuth, (req, res) => {
+router.post("https://v-seeker.onrender.com/jobs", jwtAuth, (req, res) => {
   const user = req.user;
 
   if (user.type != "recruiter") {
@@ -49,7 +49,7 @@ router.post("/jobs", jwtAuth, (req, res) => {
 });
 
 // to get all the jobs [pagination] [for recruiter personal and for everyone]
-router.get("/jobs", jwtAuth, (req, res) => {
+router.get("https://v-seeker.onrender.com/jobs", jwtAuth, (req, res) => {
   let user = req.user;
 
   let findParams = {};
@@ -221,7 +221,7 @@ router.get("/jobs", jwtAuth, (req, res) => {
 });
 
 // to get info about a particular job
-router.get("/jobs/:id", jwtAuth, (req, res) => {
+router.get("https://v-seeker.onrender.com/jobs/:id", jwtAuth, (req, res) => {
   Job.findOne({ _id: req.params.id })
     .then((job) => {
       if (job == null) {
@@ -238,7 +238,7 @@ router.get("/jobs/:id", jwtAuth, (req, res) => {
 });
 
 // to update info of a particular job
-router.put("/jobs/:id", jwtAuth, (req, res) => {
+router.put("https://v-seeker.onrender.com/jobs/:id", jwtAuth, (req, res) => {
   const user = req.user;
   if (user.type != "recruiter") {
     res.status(401).json({
@@ -284,7 +284,7 @@ router.put("/jobs/:id", jwtAuth, (req, res) => {
 });
 
 // to delete a job
-router.delete("/jobs/:id", jwtAuth, (req, res) => {
+router.delete("https://v-seeker.onrender.com/jobs/:id", jwtAuth, (req, res) => {
   const user = req.user;
   if (user.type != "recruiter") {
     res.status(401).json({
@@ -313,7 +313,7 @@ router.delete("/jobs/:id", jwtAuth, (req, res) => {
 });
 
 // get user's personal details
-router.get("/user", jwtAuth, (req, res) => {
+router.get("https://v-seeker.onrender.com/user", jwtAuth, (req, res) => {
   const user = req.user;
   if (user.type === "recruiter") {
     Recruiter.findOne({ userId: user._id })
@@ -347,7 +347,7 @@ router.get("/user", jwtAuth, (req, res) => {
 });
 
 // get user details from id
-router.get("/user/:id", jwtAuth, (req, res) => {
+router.get("https://v-seeker.onrender.com/user/:id", jwtAuth, (req, res) => {
   User.findOne({ _id: req.params.id })
     .then((userData) => {
       if (userData === null) {
@@ -393,7 +393,7 @@ router.get("/user/:id", jwtAuth, (req, res) => {
 });
 
 // update user details
-router.put("/user", jwtAuth, (req, res) => {
+router.put("https://v-seeker.onrender.com/user", jwtAuth, (req, res) => {
   const user = req.user;
   const data = req.body;
   if (user.type == "recruiter") {
@@ -471,7 +471,7 @@ router.put("/user", jwtAuth, (req, res) => {
 });
 
 // apply for a job [todo: test: done]
-router.post("/jobs/:id/applications", jwtAuth, (req, res) => {
+router.post("https://v-seeker.onrender.com/jobs/:id/applications", jwtAuth, (req, res) => {
   const user = req.user;
   if (user.type != "applicant") {
     res.status(401).json({
@@ -587,7 +587,7 @@ router.post("/jobs/:id/applications", jwtAuth, (req, res) => {
 });
 
 // recruiter gets applications for a particular job [pagination] [todo: test: done]
-router.get("/jobs/:id/applications", jwtAuth, (req, res) => {
+router.get("https://v-seeker.onrender.com/jobs/:id/applications", jwtAuth, (req, res) => {
   const user = req.user;
   if (user.type != "recruiter") {
     res.status(401).json({
@@ -629,7 +629,7 @@ router.get("/jobs/:id/applications", jwtAuth, (req, res) => {
 });
 
 // recruiter/applicant gets all his applications [pagination]
-router.get("/applications", jwtAuth, (req, res) => {
+router.get("https://v-seeker.onrender.com/applications", jwtAuth, (req, res) => {
   const user = req.user;
 
   // const page = parseInt(req.query.page) ? parseInt(req.query.page) : 1;
@@ -684,7 +684,7 @@ router.get("/applications", jwtAuth, (req, res) => {
 });
 
 // update status of application: [Applicant: Can cancel, Recruiter: Can do everything] [todo: test: done]
-router.put("/applications/:id", jwtAuth, (req, res) => {
+router.put("https://v-seeker.onrender.com/applications/:id", jwtAuth, (req, res) => {
   const user = req.user;
   const id = req.params.id;
   const status = req.body.status;
@@ -877,7 +877,7 @@ router.put("/applications/:id", jwtAuth, (req, res) => {
 
 // get a list of final applicants for current job : recruiter
 // get a list of final applicants for all his jobs : recuiter
-router.get("/applicants", jwtAuth, (req, res) => {
+router.get("https://v-seeker.onrender.com/applicants", jwtAuth, (req, res) => {
   const user = req.user;
   if (user.type === "recruiter") {
     let findParams = {
@@ -982,7 +982,7 @@ router.get("/applicants", jwtAuth, (req, res) => {
 });
 
 // to add or update a rating [todo: test]
-router.put("/rating", jwtAuth, (req, res) => {
+router.put("https://v-seeker.onrender.com/rating", jwtAuth, (req, res) => {
   const user = req.user;
   const data = req.body;
   if (user.type === "recruiter") {
@@ -1325,7 +1325,7 @@ router.put("/rating", jwtAuth, (req, res) => {
 });
 
 // get personal rating
-router.get("/rating", jwtAuth, (req, res) => {
+router.get("https://v-seeker.onrender.com/rating", jwtAuth, (req, res) => {
   const user = req.user;
   Rating.findOne({
     senderId: user._id,
