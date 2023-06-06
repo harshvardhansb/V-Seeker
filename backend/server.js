@@ -35,6 +35,10 @@ app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 // Setting up middlewares
 app.use(cors());
+app.get("/",(req,res)=>{
+res.setHeader("Access-Control-Allow-Credentials","true");
+  res.send("API is running");
+});
 app.use(express.json());
 app.use(passportConfig.initialize());
 
