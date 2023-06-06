@@ -1,56 +1,32 @@
-# V-Seeker
+# V-SEEKER
+V-Seeker is a platform that connects organizations and volunteers to collaborate and work towards a common goal. Our platform makes it
+easy for organizations to find volunteers and for volunteers to find opportunities that align with their interests and skills.
 
-V-Seeker is a MERN Stack based web app which helps in streamlining the flow of job application process. It allows users to select there roles (applicant/recruiter), and create an account. In this web app, login session are persistent and REST APIs are securely protected by JWT token verification. After logging in, a recruiter can create/delete/update jobs, shortlist/accept/reject applications, view resume and edit profile. And, an applicant can view jobs, perform fuzzy search with various filters, apply for jobs with an SOP, view applications, upload profile picture, upload resume and edit profile. Hence, it is an all in one solution for a job application system.
+## Team-Name : Last3brainCells
+Members: HarshVardhanSingh , Pankaj Vishwakarma , Sarthak Tomar
+
+## Problem Statement
+Develop a web-based platform for matching volunteers with local community service projects based on their skills and interests.
+
+## Description:
+The platform should allow volunteers to create profiles outlining their skills, availability, and interests. Community service projects should be able to post opportunities and requirements. The platform should use algorithms to match volunteers with relevant projects.
+
+#Problem Inspiration
+Many people are interested in volunteering their time and skills to support their local communities but may struggle to find opportunities that align with their skills and interests. A platform that can effectively match volunteers with relevant projects can help address this issue.
+
+## [Presentation](https://drive.google.com/file/d/1p9PK0Y3-XwLZ83zfaml_4eHUN1Vw67hD/view?usp=sharing)
 
 
-Directory structure of the web app is as follows:
+## TechStacks Used :
+HTML , CSS , JavaScript , MaterialUI , MongoDB , Express, NodeJS
 
-```
-- backend/
-    - public/
-        - profile/
-        - resume/
-- frontend/
-- README.md
-```
 
-## Instructions for initializing web app:
+# Screenshots:
 
-- Install Node JS, MongoDB in the machine.
-- Start MongoDB server: `sudo service mongod start`
-- Move inside backend directory: `cd backend`
-- Install dependencies in backend directory: `npm install`
-- Start express server: `npm start`
-- Backend server will start on port 4444.
-- Now go inside frontend directory: `cd ..\frontend`
-- Install dependencies in frontend directory: `npm install`
-- Start web app's frontend server: `npm start`
-- Frontend server will start on port 3000.
-- Now open `http://localhost:3000/` and proceed creating jobs and applications by signing up in required categories.
-
-## Dependencies:
-
-- Frontend
-  - @material-ui/core
-  - @material-ui/icons
-  - @material-ui/lab
-  - axios
-  - material-ui-chip-input
-  - react-phone-input-2
-- Backend
-  - bcrypt
-  - body-parser
-  - connect-flash
-  - connect-mongo
-  - cors
-  - crypto
-  - express
-  - express-session
-  - jsonwebtoken
-  - mongoose
-  - mongoose-type-email
-  - multer
-  - passport
-  - passport-jwt
-  - passport-local
-  - uuid
+![alt text](https://raw.githubusercontent.com/harshvardhansb/V-Seeker/main/ss1.png)
+![alt text](https://raw.githubusercontent.com/harshvardhansb/V-Seeker/main/ss2.png)
+![alt text](https://raw.githubusercontent.com/harshvardhansb/V-Seeker/main/ss4.png)
+![alt text](https://raw.githubusercontent.com/harshvardhansb/V-Seeker/main/ss5.png)
+![alt text](https://raw.githubusercontent.com/harshvardhansb/V-Seeker/main/ss6.png)
+![alt text](https://raw.githubusercontent.com/harshvardhansb/V-Seeker/main/ss7.png)
+![alt text](https://raw.githubusercontent.com/harshvardhansb/V-Seeker/main/ss8.png)
