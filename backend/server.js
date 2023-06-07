@@ -5,7 +5,7 @@ const passportConfig = require("./lib/passportConfig");
 const cors = require("cors");
 const fs = require("fs");
 
-// MongoDB
+// MongoDB 
 mongoose
   .connect("mongodb+srv://hellouser149:qwerty1234@cluster0.3xuluje.mongodb.net/jobPortal?retryWrites=true&w=majority",{
     useNewUrlParser: true,
