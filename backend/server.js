@@ -10,8 +10,8 @@ mongoose
   .connect("mongodb+srv://hellouser149:qwerty1234@cluster0.3xuluje.mongodb.net/jobPortal?retryWrites=true&w=majority",{
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
+//     useCreateIndex: true,
+//     useFindAndModify: false,
   })
   .then((res) => console.log("Connected to DB"))
   .catch((err) => console.log(err));
