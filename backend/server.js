@@ -7,7 +7,7 @@ const fs = require("fs");
 
 // MongoDB 
 mongoose
-  .connect("mongodb+srv://hellouser149:qwerty1234@cluster0.3xuluje.mongodb.net/jobPortal",{
+  .connect("mongodb+srv://harsh:harsh6306@cluster0.2sdfdgi.mongodb.net/?retryWrites=true&w=majority",{
     useNewUrlParser: true,
     useUnifiedTopology: true,
 //     useCreateIndex: true,
