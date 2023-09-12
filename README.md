@@ -1,4 +1,4 @@
-# V-SEEKER
+# V-SEEKER 🥈
 V-Seeker is a platform that connects organizations and volunteers to collaborate and work towards a common goal. Our platform makes it
 easy for organizations to find volunteers and for volunteers to find opportunities that align with their interests and skills.
 
